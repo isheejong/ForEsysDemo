@@ -1,0 +1,14 @@
+{
+	"offCallBackEntity": {
+		"requestID": "5367de70-b1eb-4658-bdf2-6ba09371fc75",
+		"appCode": "OA",
+		"bizServerNO": "ZXOA_IOA",
+		"bizID": "SpAudit_182307_SP_409287_10206805",
+		"dealTime": 1491899597467,
+		"auditBillNo": "182307",
+		"actualDealUser": "10206805",
+		"auditResult": "1",
+		"rspInfo": "[{\"labelTitle\": \"审批意见\",\"labelValue\": \"\"}, {\"labelTitle\": \"operateNodeType\",\"labelValue\": \"审批\"}]"
+	},
+	"url": ""
+}

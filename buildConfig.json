@@ -1,0 +1,30 @@
+{
+    "ios": {
+        "debug": {
+            "developmentTeam": "NTTSCTZ5MS"
+        },
+        "release": {
+            "codeSignIdentity": "iPhone Distribution: Oracle Corporation (Ent 3)",
+            "provisioningProfile": "86268424-12c4-43f2-a4a5-5bb0fc83f8f7",
+            "developmentTeam": "86KJVSY6KU",
+            "packageType": "enterprise"
+        }
+    },
+    "android": {
+        "debug": {
+            "keystore": "cathy-release-key.keystore",
+            "storePassword": "welcome1",
+            "alias": "releaseKeyAlias",
+            "password" : "welcome1",
+            "keystoreType": ""
+        },
+        "release": {
+            "keystore": "cathy-release-key.keystore",
+            "storePassword": "welcome1",
+            "alias": "releaseKeyAlias",
+            "password" : "welcome1",
+            "keystoreType": ""
+        }
+    }
+}
+

@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "id": "4",
+            "justification": "Travel to Beijing",
+            "comments":"",
+            "amount": "350.00",
+            "destination": "北京",
+            "budgetCode": "XCDFF",
+            "requestor": "employee",
+            "approver": "manager",
+            "status": "pending",
+            "created_by":"employee",
+            "created_on": "2017-05-15 09:47:33",
+            "updated_by":"employee",
+            "updated_on": "2017-05-15 09:47:33"
+        },
+        {
+            "id": "3",
+            "justification": "Travel to Wuhan",
+            "comments":"",
+            "amount": "150.00",
+            "destination": "武汉",
+            "budgetCode": "WH",
+            "requestor": "employee",
+            "approver": "manager",
+            "status": "pending",
+            "created_by":"employee",
+            "created_on": "2017-05-15 10:47:33",
+            "updated_by":"employee",
+            "updated_on": "2017-05-15 10:47:33"
+        },
+        {
+            "id": "2",
+            "justification": "Travel to Shenzhen",
+            "comments":"同意",
+            "amount": "200.00",
+            "destination": "Shenzhen",
+            "budgetCode": "SZ",
+            "requestor": "employee",
+            "approver": "manager",
+            "status": "approved",
+            "created_by":"employee",
+            "created_on": "2017-05-15 10:47:33",
+            "updated_by":"employee",
+            "updated_on": "2017-05-15 10:47:33"
+        },
+        {
+            "id": "1",
+            "justification": "Travel to Guangzhou",
+            "comments":"不同意",
+            "amount": "100.00",
+            "destination": "Guangzhou",
+            "budgetCode": "GZ",
+            "requestor": "employee",
+            "approver": "manager",
+            "status": "rejected",
+            "created_by":"employee",
+            "created_on": "2017-05-15 10:47:33",
+            "updated_by":"employee",
+            "updated_on": "2017-05-15 10:47:33"
+        }
+    ]
+}

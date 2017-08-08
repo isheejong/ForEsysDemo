@@ -1,0 +1,706 @@
+{
+    "items": [
+        {
+            "id": "1c205b20-bb06-47cc-bd13-6ab74da783f2",
+            "busiNo": "1-18TFYG--1-D67LI",
+            "serverNo": "ZXCRM_SCRM001",
+            "auditBillNo": "1-75276808",
+            "busiType": null,
+            "busiName": null,
+            "langId": null,
+            "eabledOffline": 0,
+            "webUrl": null,
+            "platformCode": "CRM",
+            "platformName": null,
+            "submitterId": "00023096",
+            "submitterName": "王琳娜",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/def/_default.png",
+            "auditOperate": "[{\"href\":\"http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm\",\"langId\":\"zh-CN\",\"operateCode\":\"1\",\"operateName\":\"同意\",\"operateType\":\"REQ\",\"seq\":\"1\"},{\"href\":\"http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm\",\"langId\":\"zh-CN\",\"operateCode\":\"2\",\"operateName\":\"拒绝\",\"operateType\":\"REQ\",\"seq\":\"2\"}]",
+            "operateList": [
+                {
+                    "seq": "1",
+                    "operateCode": "1",
+                    "operateName": "同意",
+                    "href": "http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm",
+                    "operateType": "REQ",
+                    "langId": "zh-CN",
+                    "filterType": null,
+                    "operateNodeType": null
+                },
+                {
+                    "seq": "2",
+                    "operateCode": "2",
+                    "operateName": "拒绝",
+                    "href": "http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm",
+                    "operateType": "REQ",
+                    "langId": "zh-CN",
+                    "filterType": null,
+                    "operateNodeType": null
+                }
+            ],
+            "reqTitle": "非终端国内立项申请-2016年国家开发银行重庆分行ICT服务扩容项目",
+            "createDate": 1482916676000,
+            "status": null,
+            "auditOutlineDetail": null,
+            "auditOutline": "[{\"controlSeq\":\"1\",\"controlTitle\":\"项目名称\",\"controlType\":\"Label\",\"controlValue\":\"2016年国家开发银行重庆分行ICT服务扩容项目\",\"requireType\":\"REQ\"},{\"controlSeq\":\"2\",\"controlTitle\":\"客户投资规模（万）\",\"controlType\":\"Label\",\"controlValue\":\"100\",\"requireType\":\"REQ\"},{\"controlSeq\":\"3\",\"controlTitle\":\"要求我司签单金额（万）\",\"controlType\":\"Label\",\"controlValue\":\"100\",\"requireType\":\"REQ\"},{\"controlSeq\":\"4\",\"controlTitle\":\"要求签单完成时间\",\"controlType\":\"Label\",\"controlValue\":\"12/31/2016\",\"requireType\":\"REQ\"},{\"controlSeq\":\"5\",\"controlTitle\":\"要求我司商务目标（毛利率）\",\"controlType\":\"Label\",\"controlValue\":\"10\",\"requireType\":\"REQ\"},{\"controlSeq\":\"6\",\"controlTitle\":\"我司市场目标\",\"controlType\":\"Label\",\"controlValue\":\"其他\",\"requireType\":\"REQ\"},{\"controlSeq\":\"7\",\"controlTitle\":\"市场目标描述\",\"controlType\":\"Label\",\"controlValue\":\"项目需求产生的原因该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机\",\"requireType\":\"REQ\"},{\"controlSeq\":\"8\",\"controlTitle\":\"客户名称\",\"controlType\":\"Label\",\"controlValue\":\"国家开发银行重庆分行\",\"requireType\":\"REQ\"},{\"controlSeq\":\"9\",\"controlTitle\":\"最终客户\",\"controlType\":\"Label\",\"controlValue\":\"国家开发银行重庆分行\",\"requireType\":\"REQ\"},{\"controlSeq\":\"10\",\"controlTitle\":\"最终用途\",\"controlType\":\"Label\",\"controlValue\":\"民事用途其他\",\"requireType\":\"REQ\"},{\"controlSeq\":\"11\",\"controlTitle\":\"指委会主任\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"12\",\"controlTitle\":\"项目经理\",\"controlType\":\"QueryEmployee\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"13\",\"controlTitle\":\"市场商务负责人\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"14\",\"controlTitle\":\"技术方案负责人\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"15\",\"controlTitle\":\"合同交付负责人\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"16\",\"controlTitle\":\"立项申请提交时间\",\"controlType\":\"Label\",\"controlValue\":\"2016-12-28 17:17:42\",\"requireType\":\"REQ\"}]",
+            "auditOutlineContent": [
+                {
+                    "controlSeq": "1",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "项目名称",
+                    "controlValue": "2016年国家开发银行重庆分行ICT服务扩容项目",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "2",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "客户投资规模（万）",
+                    "controlValue": "100",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "3",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "要求我司签单金额（万）",
+                    "controlValue": "100",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "4",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "要求签单完成时间",
+                    "controlValue": "12/31/2016",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "5",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "要求我司商务目标（毛利率）",
+                    "controlValue": "10",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "6",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "我司市场目标",
+                    "controlValue": "其他",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "7",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "市场目标描述",
+                    "controlValue": "项目需求产生的原因该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "8",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "客户名称",
+                    "controlValue": "国家开发银行重庆分行",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "9",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "最终客户",
+                    "controlValue": "国家开发银行重庆分行",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "10",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "最终用途",
+                    "controlValue": "民事用途其他",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "11",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "指委会主任",
+                    "controlValue": "杨颖00004895",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "12",
+                    "controlType": "QueryEmployee",
+                    "requireType": "REQ",
+                    "controlTitle": "项目经理",
+                    "controlValue": "杨颖00004895",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "13",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "市场商务负责人",
+                    "controlValue": "杨颖00004895",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "14",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "技术方案负责人",
+                    "controlValue": "杨颖00004895",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "15",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "合同交付负责人",
+                    "controlValue": "杨颖00004895",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "16",
+                    "controlType": "Label",
+                    "requireType": "REQ",
+                    "controlTitle": "立项申请提交时间",
+                    "controlValue": "2016-12-28 17:17:42",
+                    "inputType": null
+                }
+            ],
+            "auditOutlineShort": null,
+            "agreeDisplayFlag": "",
+            "nextApprovers": null
+        },
+        {
+            "id": "bca0bd2b-7090-4dbd-8ba3-57c4bd4b3ff4",
+            "busiNo": "ERP_OF_20161213154721_17965",
+            "serverNo": "ZXERP_FOL001",
+            "auditBillNo": "18404",
+            "busiType": null,
+            "busiName": null,
+            "langId": null,
+            "eabledOffline": 0,
+            "webUrl": null,
+            "platformCode": "ERP",
+            "platformName": null,
+            "submitterId": "00031826",
+            "submitterName": "郁霞",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/000\\00031826.jpg",
+            "auditOperate": "[{\"seq\":\"1\",\"langId\":\"zh-CN\",\"operateName\":\"同意\",\"operateCode\":\"1\",\"operateType\":\"OPT\",\"href\":\"http://10.88.144.180:80/api/ReceiveAuditRspOnline\",\"filterType\":\"OFF\"},{\"seq\":\"2\",\"langId\":\"zh-CN\",\"operateName\":\"不同意\",\"operateCode\":\"2\",\"operateType\":\"OPT\",\"href\":\"http://10.88.144.180:80/api/ReceiveAuditRspOnline\",\"filterType\":\"OFF\"}]",
+            "operateList": [
+                {
+                    "seq": "1",
+                    "operateCode": "1",
+                    "operateName": "同意",
+                    "href": "http://10.88.144.180:80/api/ReceiveAuditRspOnline",
+                    "operateType": "OPT",
+                    "langId": "zh-CN",
+                    "filterType": "OFF",
+                    "operateNodeType": null
+                },
+                {
+                    "seq": "2",
+                    "operateCode": "2",
+                    "operateName": "不同意",
+                    "href": "http://10.88.144.180:80/api/ReceiveAuditRspOnline",
+                    "operateType": "OPT",
+                    "langId": "zh-CN",
+                    "filterType": "OFF",
+                    "operateNodeType": null
+                }
+            ],
+            "reqTitle": "郁霞00031826于2016-12-13提交了金额为1000的公务费需求单单据，请审批。",
+            "createDate": 1481615250000,
+            "status": null,
+            "auditOutlineDetail": null,
+            "auditOutline": "[{\"controlSeq\":\"1\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求单号:\",\"controlValue\":\"20161213154721\"},{\"controlSeq\":\"2\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求类别:\",\"controlValue\":\"A\"},{\"controlSeq\":\"3\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求部门:\",\"controlValue\":\"国内政企营销中心-西南区-经理科\"},{\"controlSeq\":\"4\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"申请人:\",\"controlValue\":\"郁霞00031826\"},{\"controlSeq\":\"5\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"领用人:\",\"controlValue\":\"郁霞00031826\"},{\"controlSeq\":\"6\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求额度:\",\"controlValue\":\"1000\"},{\"controlSeq\":\"7\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"意见:\",\"controlValue\":\"\"}]",
+            "auditOutlineContent": [
+                {
+                    "controlSeq": "1",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求单号:",
+                    "controlValue": "20161213154721",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "2",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求类别:",
+                    "controlValue": "A",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "3",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求部门:",
+                    "controlValue": "国内政企营销中心-西南区-经理科",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "4",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "申请人:",
+                    "controlValue": "郁霞00031826",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "5",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "领用人:",
+                    "controlValue": "郁霞00031826",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "6",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求额度:",
+                    "controlValue": "1000",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "7",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "意见:",
+                    "controlValue": "",
+                    "inputType": null
+                }
+            ],
+            "auditOutlineShort": null,
+            "agreeDisplayFlag": "1",
+            "nextApprovers": null
+        },
+        {
+            "id": "d368d69a-6c53-4e97-92ae-158786512034",
+            "busiNo": "ERP_OF_20161213154517_17965",
+            "serverNo": "ZXERP_FOL001",
+            "auditBillNo": "18402",
+            "busiType": null,
+            "busiName": null,
+            "langId": null,
+            "eabledOffline": 0,
+            "webUrl": null,
+            "platformCode": "ERP",
+            "platformName": null,
+            "submitterId": "00031826",
+            "submitterName": "郁霞",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/000\\00031826.jpg",
+            "auditOperate": "[{\"seq\":\"1\",\"langId\":\"zh-CN\",\"operateName\":\"同意\",\"operateCode\":\"1\",\"operateType\":\"OPT\",\"href\":\"http://10.88.144.180:80/api/ReceiveAuditRspOnline\",\"filterType\":\"OFF\"},{\"seq\":\"2\",\"langId\":\"zh-CN\",\"operateName\":\"不同意\",\"operateCode\":\"2\",\"operateType\":\"OPT\",\"href\":\"http://10.88.144.180:80/api/ReceiveAuditRspOnline\",\"filterType\":\"OFF\"}]",
+            "operateList": [
+                {
+                    "seq": "1",
+                    "operateCode": "1",
+                    "operateName": "同意",
+                    "href": "http://10.88.144.180:80/api/ReceiveAuditRspOnline",
+                    "operateType": "OPT",
+                    "langId": "zh-CN",
+                    "filterType": "OFF",
+                    "operateNodeType": null
+                },
+                {
+                    "seq": "2",
+                    "operateCode": "2",
+                    "operateName": "不同意",
+                    "href": "http://10.88.144.180:80/api/ReceiveAuditRspOnline",
+                    "operateType": "OPT",
+                    "langId": "zh-CN",
+                    "filterType": "OFF",
+                    "operateNodeType": null
+                }
+            ],
+            "reqTitle": "郁霞00031826于2016-12-13提交了金额为10000的公务费需求单单据，请审批。",
+            "createDate": 1481615126000,
+            "status": null,
+            "auditOutlineDetail": null,
+            "auditOutline": "[{\"controlSeq\":\"1\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求单号:\",\"controlValue\":\"20161213154517\"},{\"controlSeq\":\"2\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求类别:\",\"controlValue\":\"A\"},{\"controlSeq\":\"3\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求部门:\",\"controlValue\":\"国内政企营销中心-西南区-经理科\"},{\"controlSeq\":\"4\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"申请人:\",\"controlValue\":\"郁霞00031826\"},{\"controlSeq\":\"5\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"领用人:\",\"controlValue\":\"郁霞00031826\"},{\"controlSeq\":\"6\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求额度:\",\"controlValue\":\"10000\"},{\"controlSeq\":\"7\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"意见:\",\"controlValue\":\"\"}]",
+            "auditOutlineContent": [
+                {
+                    "controlSeq": "1",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求单号:",
+                    "controlValue": "20161213154517",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "2",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求类别:",
+                    "controlValue": "A",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "3",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求部门:",
+                    "controlValue": "国内政企营销中心-西南区-经理科",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "4",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "申请人:",
+                    "controlValue": "郁霞00031826",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "5",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "领用人:",
+                    "controlValue": "郁霞00031826",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "6",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求额度:",
+                    "controlValue": "10000",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "7",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "意见:",
+                    "controlValue": "",
+                    "inputType": null
+                }
+            ],
+            "auditOutlineShort": null,
+            "agreeDisplayFlag": "1",
+            "nextApprovers": null
+        },
+        {
+            "id": "7dccff98-8f0c-4ecd-abce-fe1b03cc0078",
+            "busiNo": "ERP_OF_20161213154115_17965",
+            "serverNo": "ZXERP_FOL001",
+            "auditBillNo": "18401",
+            "busiType": null,
+            "busiName": null,
+            "langId": null,
+            "eabledOffline": 0,
+            "webUrl": null,
+            "platformCode": "ERP",
+            "platformName": null,
+            "submitterId": "00031826",
+            "submitterName": "郁霞",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/000\\00031826.jpg",
+            "auditOperate": "[{\"seq\":\"1\",\"langId\":\"zh-CN\",\"operateName\":\"同意\",\"operateCode\":\"1\",\"operateType\":\"OPT\",\"href\":\"http://10.88.144.180:80/api/ReceiveAuditRspOnline\",\"filterType\":\"OFF\"},{\"seq\":\"2\",\"langId\":\"zh-CN\",\"operateName\":\"不同意\",\"operateCode\":\"2\",\"operateType\":\"OPT\",\"href\":\"http://10.88.144.180:80/api/ReceiveAuditRspOnline\",\"filterType\":\"OFF\"}]",
+            "operateList": [
+                {
+                    "seq": "1",
+                    "operateCode": "1",
+                    "operateName": "同意",
+                    "href": "http://10.88.144.180:80/api/ReceiveAuditRspOnline",
+                    "operateType": "OPT",
+                    "langId": "zh-CN",
+                    "filterType": "OFF",
+                    "operateNodeType": null
+                },
+                {
+                    "seq": "2",
+                    "operateCode": "2",
+                    "operateName": "不同意",
+                    "href": "http://10.88.144.180:80/api/ReceiveAuditRspOnline",
+                    "operateType": "OPT",
+                    "langId": "zh-CN",
+                    "filterType": "OFF",
+                    "operateNodeType": null
+                }
+            ],
+            "reqTitle": "郁霞00031826于2016-12-13提交了金额为10000的公务费需求单单据，请审批。",
+            "createDate": 1481614885000,
+            "status": null,
+            "auditOutlineDetail": null,
+            "auditOutline": "[{\"controlSeq\":\"1\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求单号:\",\"controlValue\":\"20161213154115\"},{\"controlSeq\":\"2\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求类别:\",\"controlValue\":\"A\"},{\"controlSeq\":\"3\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求部门:\",\"controlValue\":\"国内政企营销中心-西南区-经理科\"},{\"controlSeq\":\"4\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"申请人:\",\"controlValue\":\"郁霞00031826\"},{\"controlSeq\":\"5\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"领用人:\",\"controlValue\":\"郁霞00031826\"},{\"controlSeq\":\"6\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"需求额度:\",\"controlValue\":\"10000\"},{\"controlSeq\":\"7\",\"controlType\":\"Label\",\"requireType\":\"OPT\",\"controlTitle\":\"意见:\",\"controlValue\":\"\"}]",
+            "auditOutlineContent": [
+                {
+                    "controlSeq": "1",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求单号:",
+                    "controlValue": "20161213154115",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "2",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求类别:",
+                    "controlValue": "A",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "3",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求部门:",
+                    "controlValue": "国内政企营销中心-西南区-经理科",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "4",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "申请人:",
+                    "controlValue": "郁霞00031826",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "5",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "领用人:",
+                    "controlValue": "郁霞00031826",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "6",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "需求额度:",
+                    "controlValue": "10000",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": "7",
+                    "controlType": "Label",
+                    "requireType": "OPT",
+                    "controlTitle": "意见:",
+                    "controlValue": "",
+                    "inputType": null
+                }
+            ],
+            "auditOutlineShort": null,
+            "agreeDisplayFlag": "1",
+            "nextApprovers": null
+        },
+        {
+            "id": "53ca955a-68dd-4acc-a079-bf10ef3d0f90",
+            "busiNo": "PRM0000002_179380",
+            "serverNo": "ZXCRM_PRM001",
+            "auditBillNo": "SQ201608152068",
+            "busiType": null,
+            "busiName": null,
+            "langId": null,
+            "eabledOffline": 0,
+            "webUrl": null,
+            "platformCode": "CRM",
+            "platformName": null,
+            "submitterId": "10174758",
+            "submitterName": "吴涛",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/def/_default.png",
+            "auditOperate": "1,2",
+            "operateList": [
+                {
+                    "seq": "1",
+                    "operateCode": "1",
+                    "operateName": "同意",
+                    "href": null,
+                    "operateType": null,
+                    "langId": null,
+                    "filterType": null,
+                    "operateNodeType": null
+                },
+                {
+                    "seq": "2",
+                    "operateCode": "2",
+                    "operateName": "拒绝",
+                    "href": null,
+                    "operateType": null,
+                    "langId": null,
+                    "filterType": null,
+                    "operateNodeType": null
+                }
+            ],
+            "reqTitle": "项目授权：SQ201608152068审批",
+            "createDate": 1476182759000,
+            "status": null,
+            "auditOutlineDetail": null,
+            "auditOutline": "授权编号:|SQ201608152068,项目编号:|XS20160815002,项目名称:|项目报备优化测试,渠道商名称:|测试账号,授权书渠道商名称:|测试账号,授权书接收人:|翔GG,申请日期:|2016-08-15 15:34:07,",
+            "auditOutlineContent": [
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "授权编号:",
+                    "controlValue": "SQ201608152068",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "项目编号:",
+                    "controlValue": "XS20160815002",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "项目名称:",
+                    "controlValue": "项目报备优化测试",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "渠道商名称:",
+                    "controlValue": "测试账号",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "授权书渠道商名称:",
+                    "controlValue": "测试账号",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "授权书接收人:",
+                    "controlValue": "翔GG",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "申请日期:",
+                    "controlValue": "2016-08-15 15:34:07",
+                    "inputType": null
+                }
+            ],
+            "auditOutlineShort": null,
+            "agreeDisplayFlag": "1",
+            "nextApprovers": null
+        },
+        {
+            "id": "44737439-8354-45ef-b2d4-d455a111a505",
+            "busiNo": "PRM0000002_179378",
+            "serverNo": "ZXCRM_PRM001",
+            "auditBillNo": "SQ201605242052",
+            "busiType": null,
+            "busiName": null,
+            "langId": null,
+            "eabledOffline": 0,
+            "webUrl": null,
+            "platformCode": "CRM",
+            "platformName": null,
+            "submitterId": "6396000435",
+            "submitterName": "陈丹阳",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/def/_default.png",
+            "auditOperate": "1,2",
+            "operateList": [
+                {
+                    "seq": "1",
+                    "operateCode": "1",
+                    "operateName": "同意",
+                    "href": null,
+                    "operateType": null,
+                    "langId": null,
+                    "filterType": null,
+                    "operateNodeType": null
+                },
+                {
+                    "seq": "2",
+                    "operateCode": "2",
+                    "operateName": "拒绝",
+                    "href": null,
+                    "operateType": null,
+                    "langId": null,
+                    "filterType": null,
+                    "operateNodeType": null
+                }
+            ],
+            "reqTitle": "项目授权：SQ201605242052审批",
+            "createDate": 1476160356000,
+            "status": null,
+            "auditOutlineDetail": null,
+            "auditOutline": "授权编号:|SQ201605242052,项目编号:|XS20160524001,项目名称:|test3,渠道商名称:|测试账号,授权书渠道商名称:|测试账号,授权书接收人:|vvvaec,申请日期:|2016-05-24 15:32:34,",
+            "auditOutlineContent": [
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "授权编号:",
+                    "controlValue": "SQ201605242052",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "项目编号:",
+                    "controlValue": "XS20160524001",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "项目名称:",
+                    "controlValue": "test3",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "渠道商名称:",
+                    "controlValue": "测试账号",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "授权书渠道商名称:",
+                    "controlValue": "测试账号",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "授权书接收人:",
+                    "controlValue": "vvvaec",
+                    "inputType": null
+                },
+                {
+                    "controlSeq": null,
+                    "controlType": "Label",
+                    "requireType": null,
+                    "controlTitle": "申请日期:",
+                    "controlValue": "2016-05-24 15:32:34",
+                    "inputType": null
+                }
+            ],
+            "auditOutlineShort": null,
+            "agreeDisplayFlag": "1",
+            "nextApprovers": null
+        }
+    ]
+}

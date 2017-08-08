@@ -1,0 +1,363 @@
+/*
+    Document   : override
+    Created on : <date>
+    Author     : <author>
+    Description:
+        This is where any of your application specific styles should be included
+*/
+
+/* Hides the content area until we are ready to display after paddings have been adjusted. 
+    oj-complete is a marker class that is applied by the appController 
+    after adjusting the content area. */
+.oj-applayout-content:not(.oj-complete) {
+    /*visibility: hidden;*/
+}
+.oj-hybrid-applayout-header, .oj-hybrid-applayout-header-no-border,
+.oj-button-jqui.oj-default.oj-button-half-chrome, .oj-button-jqui.oj-focus-only.oj-button-half-chrome, .oj-button.oj-default.oj-button-half-chrome .oj-button-button, .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-button{
+    background-color: #c21a01;
+}
+.oj-button.oj-default.oj-button-half-chrome .oj-button-icon, .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-icon,
+.oj-hybrid-applayout-header-title,
+.oj-button-jqui.oj-default.oj-button-half-chrome, .oj-button-jqui.oj-focus-only.oj-button-half-chrome, .oj-button.oj-default.oj-button-half-chrome .oj-button-button, .oj-button.oj-focus-only.oj-button-half-chrome .oj-button-button{
+    color: white;
+}
+.oj-hybrid-applayout-footer {
+    background-color: lightgrey;
+}
+.oj-inputtext:not(.oj-disabled):not(.oj-read-only) .oj-inputtext-input:focus{
+    border-color:#c21a01;
+}
+.oj-button-jqui.oj-default.oj-button-full-chrome, .oj-button-jqui.oj-focus-only.oj-button-full-chrome, .oj-button.oj-default.oj-button-full-chrome .oj-button-button, .oj-button.oj-focus-only.oj-button-full-chrome .oj-button-button,
+.oj-inputpassword:not(.oj-disabled):not(.oj-read-only) .oj-inputpassword-input:focus{
+    background-color: #c21a01;
+    border-color: #c21a01;
+}
+.oj-active{
+    background-color: #a81a05!important;
+    border-color: #a81a05!important;
+}
+
+
+.demo-james-icon {
+    width: 80px;
+    height: 80px;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.demo-icon-font-24{
+    font-size:24px!important;
+}
+.demo-profile-name {
+    font-size: 1.714rem;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 42px;
+}
+.demo-hr{
+    width:40%;
+    margin-left:5px;
+    border-color:darkgrey;
+}
+.demo-logout{
+    padding-left: calc(0.625rem - 3px);
+    border-width: 0 0 0 3px;
+    margin-right: 0.625rem;
+}
+.demo-logout-label{
+    color: #c0c4c8;
+}
+
+.demo-app-name {
+    padding-top: 40px;
+    color: #979899;
+}
+
+.demo-loading-icon{ 
+    margin-top: auto;
+    margin-bottom: auto;
+    color: pink;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index :999;
+}
+.demo-icon{
+    margin:5px;
+    color:white;
+}
+.demo-login-text{
+    font-size:large;
+    font-weight:bold;
+    color:white;
+}
+.demo-login-input{
+    font-size:small;
+    color: lightgrey;
+    border: 1px solid lightblue;
+    padding: 10px !important;
+}
+.demo-login-input:focus{
+    border-color: lightyellow !important;
+    border-width: 2px !important;
+}
+
+.demo-login-page{
+    background: -webkit-gradient(linear,0 0, 0 bottom, from(#CCFFFF), to(#66CCCC));
+    background: white url(images/login_bg.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.login-btn{
+    margin-top:20px;
+    height:45px;
+    width:100%;
+}
+.login-btn:active{
+    background-color: #a81a05!important;
+    border-color: #a81a05!important;
+}
+
+
+.demo-activity-list .oj-listview{
+    border: none;
+}
+.demo-activity-list-item-left{
+    text-align:left;
+}
+.demo-activity-list-item-left div{
+    padding-top:0.3rem;
+    text-align: center;
+    font-size:small;
+}
+.oj-listview-item.oj-selected{
+    border-top:white;
+    background:linear-gradient(white, lightgrey, white)!important;
+    border-left: 5px #1e90ee solid;
+    margin-left:2px;
+}
+.oj-listview-item.oj-selected .demo-activity-list-item-left{
+    /*color: white;*/
+}
+.demo-activity-list-item.oj-listview-item{
+    background-image: none;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+
+}
+.demo-activity-list-item{
+    margin:0.5rem;
+    border-bottom: 1px lightgrey solid;
+}
+.demo-activity-list-item-right{
+    padding: 0.3rem;
+}
+.demo-text-header{
+    font-weight:bold;
+    color: #0471B2;
+}
+.demo-text-subtitle{
+    color:black;
+    font-size: small;
+}
+.demo-text-desc{
+    color:grey;
+    font-size: 10px;
+}
+.demo-text-desc-top{
+    vertical-align: top;
+}
+.demo-user-icon {
+    width: 50px;
+    height: 50px;
+}
+.demo-vertical-middle{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.demo-approve-msg{
+    padding:8px;
+    background-color:#e6f3fb;
+    color:blue;
+}
+.demo-green{
+    color:lightgreen!important;
+}
+.demo-red{
+    color:darkred!important;
+}
+
+.demo-ls-text{
+    font-size:small;
+    vertical-align: text-top;
+}
+
+.demo-status{
+    height: 100%;
+    font-size: 26px;
+}
+.demo-status-pending{
+    color: grey;
+    font-size:20px;
+}
+.demo-status-approve{
+    color:green;
+}
+.demo-status-reject{
+    color:darkred;
+}
+
+.demo-round-btn{
+    border-radius: 50% !important;
+    height:60px;
+    width: 60px;
+    background-color: lightseagreen !important;
+    border-color: lightseagreen !important;
+    margin-bottom: 16px;
+}
+.demo-form-align-right{
+    text-align:right;
+}
+.demo-form-align-right .oj-read-only input,
+.demo-form-align-right .oj-read-only textarea{
+    text-align: right !important;
+}
+.demo-form-input{
+    font-size:small;
+    border: 1px solid lightblue;
+    padding: 5px !important;
+}
+.demo-form-input:focus{
+    border-color:#0572ce !important;
+    border-width: 2px !important;
+}
+.demo-form-label-readonly,
+.demo-form-value-readonly{
+    font-size: small;
+    padding:0 0 8px 0;
+}
+.demo-form-value-readonly{
+    text-align: right;
+}
+.demo-highlight-pending{
+    font-weight:bold;
+    font-size: medium;
+}
+.demo-highlight-approved{
+    color:green;
+    font-weight:bold;
+    font-size: medium;
+}
+.demo-highlight-rejected{
+    color:darkred;
+    font-weight:bold;
+    font-size: medium;
+}
+.demo-activity-list-item-nopad{
+    padding:0;
+    margin:0 .5rem;
+}
+.demo-clock-value{
+    color:darkred;
+    font-weight:bold;
+}
+.demo-loan-value{
+    font-weight: bold;
+}
+.demo-hr-red{
+    border-width: 1px;
+    border-color:#c21a01;
+
+    position: relative;
+    left:-10%;
+    width:120%;
+}
+.demo-hr-lightgrey{
+    border-color:#c4c4c4;
+}
+.demo-image{
+    max-width:180px;
+    max-height:180px;
+    margin:5px;
+}
+.demo-loan-page{
+    background: white; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left bottom, #cdcccc, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top right, #cdcccc, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top right, #cdcccc, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top right, #cdcccc, white); /* Standard syntax (must be last) */
+}
+.demo-loan-input{
+    border: 1px solid white;
+    padding: 10px !important;
+    background-color:white;
+    height:35px;
+    text-align: right;
+}
+.demo-loan-btn{
+    width:100%;
+}
+.demo-loan-notice{
+    color: #424242;
+    font-size:80%;
+}
+.demo-loan-logo-div{
+    margin-bottom: 20%;
+}
+.demo-loan-logo{
+    width:100%;
+    height:100%;
+}
+.demo-loan-login-center{
+    top:-20%;
+    width: 70%;
+}
+.demo-loan-login-welcome{
+    margin: 10px 0;
+    font-weight: bold;
+    color: #c21a01;
+    font-size:20px;
+}
+.demo-loan-login-user{
+    background-image:url(images/user.png); 
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-color:#272a2d !important;
+    width:100%;
+    height:35px;
+}
+.demo-loan-login-password{
+    background-image:url(images/password.png); 
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-color:#272a2d !important;
+    width:100%;
+    height:35px;
+}
+
+.demo-loan-login-input{
+    background-color:#777777;
+    border-color: #777777;
+    padding:0;
+    margin:0;
+    text-indent: 5px;
+    height:35px;
+    color:white;
+}
+.demo-loan-login-input::placeholder{
+    color:#d8d8d8;
+}
+.demo-loan-input::placeholder{
+    text-align: right;
+}

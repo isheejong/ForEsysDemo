@@ -1,0 +1,15 @@
+{
+  "user_name": "홍길동",
+  "transaction_name": "TST-00114584-001",
+  "loan_amount": "100,000 HKD",
+  "date_created": "2017.03.31",
+  "contract_expiration_date": "2020.12.25",
+  "last_payment_date": "2017.04.25",
+  "last_payment_amount": "2,500 HKD",
+  "remaining_loan_amount": "99,000 HKD",
+  "qr_url":"https://ibin.co/3S3QYcIfBjiw.png",
+  "image_upload":"입금알림",
+  "image_button1":"사진첨부",
+  "image_button2":"입금완료",
+  "notice":"2017. 04. 25 알려드립니다 <br/>2017. 04. 01 납부안내입니다 <br/>2017. 03. 31 신규거래 축하합니다."
+}

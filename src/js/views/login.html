@@ -1,0 +1,69 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-hybrid-applayout-page demo-loan-page">
+    <div class="oj-applayout-fixed-top" data-bind="visible: false;">
+        <!--
+         ** Oracle JET V3.0.0 hybrid mobile application header pattern.
+         ** Please see the Oracle JET Cookbook App Shell: Hybrid Mobile demos for
+         ** more information on how to use this pattern.
+        -->
+        <header role="banner" class="oj-hybrid-applayout-header" data-bind="ojModule: headerConfig">
+        </header>
+    </div>
+    <!-- This is where your main page content will be loaded -->
+    <div class="oj-applayout-content">
+        <div role="main" class="oj-hybrid-applayout-content">
+            <div class="oj-hybrid-padding">
+                <!-- Login  -->
+                <div class="oj-flex-bar-center-absolute demo-loan-login-center">
+                    <div class="oj-flex">
+                        <div class="demo-loan-logo-div">
+                            <img src="css/images/logo.png" class="demo-loan-logo">
+                        </div>
+                        <span class="demo-loan-login-welcome">Welcome</span>
+                        <div class="oj-flex">
+                            <div class="oj-flex-item oj-sm-2">
+                                <input class="demo-loan-login-user" id="text-input"
+                                       type="text"
+                                       data-bind="ojComponent: {component: 'ojInputText',
+                                           readOnly: true}" >
+                            </div>
+                            <div class="oj-flex-item oj-sm-10">
+                                <input class="demo-loan-login-input" id="text-input"
+                                       type="text"
+                                       data-bind="ojComponent: {component: 'ojInputText',
+                                               placeholder: oj.Translations.getTranslatedString('user'),
+                                          value: username}" >
+                            </div>
+                        </div>
+                        <div class="oj-flex" style="margin-top:3px;">
+                            <div class="oj-flex-item oj-sm-2">
+                                <input class="demo-loan-login-password" id="text-input"
+                                       type="text"
+                                       data-bind="ojComponent: {component: 'ojInputText',
+                                           readOnly: true}" >
+                            </div>
+                            <div class="oj-flex-item oj-sm-10">
+                                <input type="password" class="demo-loan-login-input"
+                                       id="password"
+                                       data-bind="ojComponent: {component: 'ojInputPassword', 
+                                          placeholder: oj.Translations.getTranslatedString('password'),
+                                          value: password}"/>
+                            </div>
+                        </div>
+                        <br/>
+
+
+                        <div id='buttons-container' style="padding-top:10px;width:100%;">
+                            <input id="submit" type="submit" data-bind="click: login, 
+                              ojComponent: {component: 'ojButton', label: oj.Translations.getTranslatedString('login'), chroming: 'full'},
+                              css: 'login-btn'"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

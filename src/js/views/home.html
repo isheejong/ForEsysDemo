@@ -1,0 +1,145 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+-->
+<div class="oj-hybrid-applayout-page demo-loan-page">
+    <div class="oj-applayout-fixed-top">
+        <!--
+         ** Oracle JET V3.0.0 hybrid mobile application header pattern.
+         ** Please see the Oracle JET Cookbook App Shell: Hybrid Mobile demos for
+         ** more information on how to use this pattern.
+        -->
+        <header role="banner" class="oj-hybrid-applayout-header" data-bind="ojModule: headerConfig">
+        </header>
+    </div>
+    <!-- This is where your main page content will be loaded -->
+    <div class="oj-applayout-content">
+        <div role="main" class="oj-hybrid-applayout-content">
+            <div class="oj-hybrid-padding">
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('user_name') + ': '">
+                        User name:
+                    </div>
+                    <div class="oj-flex-bar-end" data-bind="text:user_name">
+                    </div>
+                </div>
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('transaction_name') + ': '">
+                        Transaction name:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:transaction_name">
+                    </div>
+                </div>
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('loan_amount') + ': '">
+                        Loan amount:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:loan_amount">
+                    </div>
+                </div>
+                <hr class="demo-hr-red" />
+
+                <!-- hidden area-->
+                <div data-bind="visible: false;">
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('date_created') + ': '">
+                        Date Created:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:date_created">
+                    </div>
+                </div>
+                <hr class="demo-hr-lightgrey" />
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('contract_expiration_date') + ': '">
+                        Contract Expiration Date:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:contract_expiration_date">
+                    </div>
+                </div>
+                <hr class="demo-hr-lightgrey" />
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('last_payment_date') + ': '">
+                        Date of Last Payment:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:last_payment_date">
+                    </div>
+                </div>
+                <hr class="demo-hr-lightgrey" />
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('last_payment_amount') + ': '">
+                        Amount of Last Payment:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:last_payment_amount">
+                    </div>
+                </div>
+                <hr class="demo-hr-lightgrey" />
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('remaining_loan_amount') + ': '">
+                        Remaining Loan amount:
+                    </div>
+                    <div class="oj-flex-bar-end demo-loan-value" data-bind="text:remaining_loan_amount">
+                    </div>
+                </div>
+              </div>
+
+                <hr class="demo-hr-lightgrey" />
+                <div class="oj-flex oj-sm-flex-items-initial oj-sm-justify-content-center" data-bind="text: oj.Translations.getTranslatedString('qr_url') + ': '">
+                    QR code for payment:
+                </div>
+                <div class="oj-flex oj-sm-flex-items-initial oj-sm-justify-content-center">
+                    <div class="oj-flex-item"> <img class="demo-image" data-bind="attr: {src: qr_url()}"  /></div>
+                </div>
+
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-start" data-bind="text: oj.Translations.getTranslatedString('image_upload') + ': '">
+                        image_upload:
+                    </div>
+                    <div class="oj-flex-bar-end">
+                         <button class="demo-loan-btn" data-bind="ojComponent: {
+                                    component:'ojButton',
+                                    chroming: 'full',
+                                    label: oj.Translations.getTranslatedString('image_button1')}">
+                        </button>
+                        <div style="width:10px;"></div>
+                         <button class="demo-loan-btn" data-bind="ojComponent: {
+                                    component:'ojButton',
+                                    chroming: 'full',
+                                    label: oj.Translations.getTranslatedString('image_button2')}">
+                        </button>
+                    </div>
+                </div>
+
+                <div data-bind="text: oj.Translations.getTranslatedString('request_label') + ': '" style="margin-bottom: 5px;">
+                    Request for additional Loan:
+                </div>
+                <div class="oj-flex-bar">
+                    <div class="oj-flex-bar-middle oj-sm-9">
+                        <input id="text-input" class="demo-loan-input"
+                               type="text"
+                               data-bind="ojComponent: {component: 'ojInputText',
+                                       placeholder: 'HKD',
+                                       value: additionLoan}"/>
+                        &nbsp;&nbsp;
+                    </div>
+                    <div class="oj-flex-bar-end oj-sm-3">
+                        <button class="demo-loan-btn" data-bind="ojComponent: {
+                                    component:'ojButton',
+                                    chroming: 'full',
+                                    label: oj.Translations.getTranslatedString('request_btn')}">
+                        </button>
+                    </div>
+                </div>
+                <br/>
+                <div class="oj-flex">
+                    <div class="oj-flex-item oj-sm-3">
+                        <label for="notice" data-bind="text: oj.Translations.getTranslatedString('notice') + ': '">Notice: </label>
+                    </div>
+                    <div class="oj-flex-item oj-sm-9 demo-loan-notice" data-bind="html:notice">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

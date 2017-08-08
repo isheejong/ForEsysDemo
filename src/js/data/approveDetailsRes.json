@@ -1,0 +1,201 @@
+{
+    "id": "1c205b20-bb06-47cc-bd13-6ab74da783f2",
+    "busiNo": "1-18TFYG--1-D67LI",
+    "serverNo": "ZXCRM_SCRM001",
+    "auditBillNo": "1-75276808",
+    "reqTitle": "非终端国内立项申请-2016年国家开发银行重庆分行ICT服务扩容项目",
+    "submitterId": "00023096",
+    "submitterName": "王琳娜",
+    "approverId": null,
+    "platformCode": "CRM",
+    "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/def/_default.png",
+    "auditOutlineDetail": null,
+    "auditOutline": "[{\"controlSeq\":\"1\",\"controlTitle\":\"项目名称\",\"controlType\":\"Label\",\"controlValue\":\"2016年国家开发银行重庆分行ICT服务扩容项目\",\"requireType\":\"REQ\"},{\"controlSeq\":\"2\",\"controlTitle\":\"客户投资规模（万）\",\"controlType\":\"Label\",\"controlValue\":\"100\",\"requireType\":\"REQ\"},{\"controlSeq\":\"3\",\"controlTitle\":\"要求我司签单金额（万）\",\"controlType\":\"Label\",\"controlValue\":\"100\",\"requireType\":\"REQ\"},{\"controlSeq\":\"4\",\"controlTitle\":\"要求签单完成时间\",\"controlType\":\"Label\",\"controlValue\":\"12/31/2016\",\"requireType\":\"REQ\"},{\"controlSeq\":\"5\",\"controlTitle\":\"要求我司商务目标（毛利率）\",\"controlType\":\"Label\",\"controlValue\":\"10\",\"requireType\":\"REQ\"},{\"controlSeq\":\"6\",\"controlTitle\":\"我司市场目标\",\"controlType\":\"Label\",\"controlValue\":\"其他\",\"requireType\":\"REQ\"},{\"controlSeq\":\"7\",\"controlTitle\":\"市场目标描述\",\"controlType\":\"Label\",\"controlValue\":\"项目需求产生的原因该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机\",\"requireType\":\"REQ\"},{\"controlSeq\":\"8\",\"controlTitle\":\"客户名称\",\"controlType\":\"Label\",\"controlValue\":\"国家开发银行重庆分行\",\"requireType\":\"REQ\"},{\"controlSeq\":\"9\",\"controlTitle\":\"最终客户\",\"controlType\":\"Label\",\"controlValue\":\"国家开发银行重庆分行\",\"requireType\":\"REQ\"},{\"controlSeq\":\"10\",\"controlTitle\":\"最终用途\",\"controlType\":\"Label\",\"controlValue\":\"民事用途其他\",\"requireType\":\"REQ\"},{\"controlSeq\":\"11\",\"controlTitle\":\"指委会主任\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"12\",\"controlTitle\":\"项目经理\",\"controlType\":\"QueryEmployee\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"13\",\"controlTitle\":\"市场商务负责人\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"14\",\"controlTitle\":\"技术方案负责人\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"15\",\"controlTitle\":\"合同交付负责人\",\"controlType\":\"Label\",\"controlValue\":\"杨颖00004895\",\"requireType\":\"REQ\"},{\"controlSeq\":\"16\",\"controlTitle\":\"立项申请提交时间\",\"controlType\":\"Label\",\"controlValue\":\"2016-12-28 17:17:42\",\"requireType\":\"REQ\"}]",
+    "auditOutlineAttach": null,
+    "attachs": null,
+    "auditOutlineContent": [
+        {
+            "controlSeq": "1",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "项目名称",
+            "controlValue": "2016年国家开发银行重庆分行ICT服务扩容项目",
+            "inputType": null
+        },
+        {
+            "controlSeq": "2",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "客户投资规模（万）",
+            "controlValue": "100",
+            "inputType": null
+        },
+        {
+            "controlSeq": "3",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "要求我司签单金额（万）",
+            "controlValue": "100",
+            "inputType": null
+        },
+        {
+            "controlSeq": "4",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "要求签单完成时间",
+            "controlValue": "12/31/2016",
+            "inputType": null
+        },
+        {
+            "controlSeq": "5",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "要求我司商务目标（毛利率）",
+            "controlValue": "10",
+            "inputType": null
+        },
+        {
+            "controlSeq": "6",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "我司市场目标",
+            "controlValue": "其他",
+            "inputType": null
+        },
+        {
+            "controlSeq": "7",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "市场目标描述",
+            "controlValue": "项目需求产生的原因该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机该项目投资预算金额项目是否有预算达成度要求此次需求的设备或终端数量客户的供应商策略客户引入ZTE的主要动机",
+            "inputType": null
+        },
+        {
+            "controlSeq": "8",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "客户名称",
+            "controlValue": "国家开发银行重庆分行",
+            "inputType": null
+        },
+        {
+            "controlSeq": "9",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "最终客户",
+            "controlValue": "国家开发银行重庆分行",
+            "inputType": null
+        },
+        {
+            "controlSeq": "10",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "最终用途",
+            "controlValue": "民事用途其他",
+            "inputType": null
+        },
+        {
+            "controlSeq": "11",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "指委会主任",
+            "controlValue": "杨颖00004895",
+            "inputType": null
+        },
+        {
+            "controlSeq": "12",
+            "controlType": "QueryEmployee",
+            "requireType": "REQ",
+            "controlTitle": "项目经理",
+            "controlValue": "杨颖00004895",
+            "inputType": null
+        },
+        {
+            "controlSeq": "13",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "市场商务负责人",
+            "controlValue": "杨颖00004895",
+            "inputType": null
+        },
+        {
+            "controlSeq": "14",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "技术方案负责人",
+            "controlValue": "杨颖00004895",
+            "inputType": null
+        },
+        {
+            "controlSeq": "15",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "合同交付负责人",
+            "controlValue": "杨颖00004895",
+            "inputType": null
+        },
+        {
+            "controlSeq": "16",
+            "controlType": "Label",
+            "requireType": "REQ",
+            "controlTitle": "立项申请提交时间",
+            "controlValue": "2016-12-28 17:17:42",
+            "inputType": null
+        }
+    ],
+    "auditOutlineTable": null,
+    "auditOutlineShort": null,
+    "auditOperate": "[{\"href\":\"http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm\",\"langId\":\"zh-CN\",\"operateCode\":\"1\",\"operateName\":\"同意\",\"operateType\":\"REQ\",\"seq\":\"1\"},{\"href\":\"http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm\",\"langId\":\"zh-CN\",\"operateCode\":\"2\",\"operateName\":\"拒绝\",\"operateType\":\"REQ\",\"seq\":\"2\"}]",
+    "operateList": [
+        {
+            "seq": "1",
+            "operateCode": "1",
+            "operateName": "同意",
+            "href": "http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm",
+            "operateType": "REQ",
+            "langId": "zh-CN",
+            "filterType": null,
+            "operateNodeType": null
+        },
+        {
+            "seq": "2",
+            "operateCode": "2",
+            "operateName": "拒绝",
+            "href": "http://10.5.172.82:8088/siebel/mobileapproversp/approveCustom.jssm",
+            "operateType": "REQ",
+            "langId": "zh-CN",
+            "filterType": null,
+            "operateNodeType": null
+        }
+    ],
+    "opinions": [
+        {
+            "approverId": "00181547",
+            "approverName": "刘琴",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/001\\00181547.jpg",
+            "approveTime": 1482916675000,
+            "auditResult": "1",
+            "auditOpinion": "ok",
+            "auditType": "审批",
+            "resultList": [],
+            "operInfo": "{\"auditOpinion\":\"[{\\\"labelTitle\\\":\\\"审批意见\\\",\\\"labelValue\\\":\\\"ok\\\"}]\",\"auditResult\":\"1\"}",
+            "operType": 2,
+            "filteFlag": null
+        },
+        {
+            "approverId": "10003176",
+            "approverName": "贾名宏",
+            "imgUrl": "http://moatest.zte.com.cn:8279/approve-portrait/img/100\\10003176.png",
+            "approveTime": 1482916506000,
+            "auditResult": "同意",
+            "auditOpinion": "ok",
+            "auditType": "审批",
+            "resultList": [],
+            "operInfo": "{\"auditOpinion\":\"[{\\\"labelTitle\\\":\\\"审批意见\\\",\\\"labelValue\\\":\\\"ok\\\"}]\",\"auditResult\":\"同意\"}",
+            "operType": 2,
+            "filteFlag": null
+        }
+    ],
+    "createDate": 1482916676000,
+    "droplists": []
+}

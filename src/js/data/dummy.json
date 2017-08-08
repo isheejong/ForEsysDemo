@@ -1,0 +1,52 @@
+{
+    "items": 
+            [
+                {
+                    "id": "1",
+                    "name": "Visit Pittsburgh Mart",
+                    "AccountId": 100000004495079,
+                    "address": "637 Caronlina St,SAN FRANCISCO,Co",
+                    "start_time": "09:30 AM",
+                    "end_time": "10:30 AM",
+                    "group": "Pittsburgh Mart",
+                    "GPS_Latitude": null,
+                    "GPS_Longitude": null,
+                    "CheckInTime": null,
+                    "CheckOutTime": null,
+                    "tasks": [
+                        {
+                            "code": "CUST_SEC_STORE_REVIEW",
+                            "__ORACO__Name_c": "Store Review"
+                        },
+                        {
+                            "code": "STD_ORA_INVENTORY_AUDIT",
+                            "__ORACO__Name_c": "Inventory Audit"
+                        },
+                        {
+                            "code": "CUST_SEC_DISPLAY_COMP_AUDIT",
+                            "__ORACO__Name_c": "Display Compliance Audit"
+                        },
+                        {
+                            "code": "STD_ORA_PROMO_COMP_AUDIT",
+                            "__ORACO__Name_c": "Promotion Compliance Audit"
+                        },
+                        {
+                            "code": "STD_ORA_SURVEY",
+                            "__ORACO__Name_c": "Survey Competitor"
+                        }
+                    ]
+                }
+            ],
+    "count": 4,
+    "hasMore": false,
+    "limit": 25,
+    "offset": 0,
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://ucf5-fap0016-crm.oracledemos.com:443/salesApi/resources/11.1.11/__ORACO__ActivityType_c",
+            "name": "__ORACO__ActivityType_c",
+            "kind": "collection"
+        }
+    ]
+}
