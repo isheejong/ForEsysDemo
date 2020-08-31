@@ -7,7 +7,7 @@
     "homepage": "http://www.oraclejet.org"
   },
   "dependencies": {
-    "oraclejet": "~3.0.0"
+    "oraclejet": "~3.2.0"
   },
   "devDependencies": {
     "fs-extra": "0.30.0",
